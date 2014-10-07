@@ -14,13 +14,10 @@ $(document).ready(function() {
 		return false;
 	});
 	
-	$('.locationSelectbox').click(function(){
-		$('.locationDropDown').slideToggle();
-	});
-	
 	$('.flexslider').flexslider({
 		animation: "slide",
 		controlNav: true,
 		directionNav: false
 	  });
+	  $(".inline").colorbox({inline:true, width:"778px", transition: 'none'});
 });
