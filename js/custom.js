@@ -64,7 +64,7 @@ $(document).ready(function() {
 				// var el = $('#' + this.href.split('#')[1]);
 				var method1 = sel1.val();
 				var method2 = sel2.val();
-				$('.example').animate({'top':'0'}, {duration: 50, easing: method1}).animate({'top':'103px'}, {duration: 1000, easing: method2});
+				$('.example').animate({'top':'0'}, {duration: 50, easing: method1}).animate({'top':'105px'}, {duration: 1000, easing: method2});
 			});
 
 			if($('body').width() > 600){
