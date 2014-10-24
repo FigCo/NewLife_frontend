@@ -32,15 +32,15 @@
 				</div>
 				<div class="headerMainWrapper">
 					<div class="logo"><a href="#"><img src="images/logo.png" alt="" /></a></div>
-					<ul class="mainNav clearfix">
-						<li><a href="#">Locations</a></li>
-						<li><a href="#">Ministries</a></li>
-						<li><a href="#">Messages &amp; Events</a></li>
-						<li><a href="#">Growth</a></li>
-						<li><a href="#">About</a></li>
-					</ul>
 				</div>
 			</div>
+			<ul class="mainNav clearfix">
+				<li><a href="#">Locations</a></li>
+				<li><a href="#">Ministries</a></li>
+				<li><a href="#">Messages &amp; Events</a></li>
+				<li><a href="#">Growth</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
 		</div>
 	</header>
 	<div class="page clearfix">
@@ -204,6 +204,17 @@
 <!-- this is where we put our custom functions --> 
 <script src="js/common.js" type="text/javascript"></script> 
 <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-
+<script type="text/javascript">
+	$(window).scroll(function () {
+		//console log determines when nav is fixed
+		console.log($(window).scrollTop())
+		if ($(window).scrollTop() > 420) {
+			$('.mainNav').addClass('fixed');
+		}
+		if ($(window).scrollTop() < 421) {
+			$('.mainNav').removeClass('fixed');
+		}
+	});
+</script> 
 </body>
 </html>
