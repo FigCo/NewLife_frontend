@@ -1,6 +1,6 @@
 /* CSS Document */
 
-/* TOC 
+/* TOC
  * RESET STYLES
  * FONT FACE (IF USED)
  * HTML
@@ -28,7 +28,7 @@ body {
 	min-height:100%;
 	font-family: sans-serif;
 	color: #222;
-} 
+}
 .left{ float:left; }
 .right{ float:right; }
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
@@ -37,16 +37,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 button, input, select, textarea {
 	font-family: sans-serif; /*Probably Helvetica for Linux/Mac Systems And Arial for Windows PC*/
 	color: #222;
-} 
+}
 blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after, q:before, q:after { /* Safari Reset as Safari does not recognise quotes property */
 	content: '';
 	content: none;
-} 
+}
 abbr[title], dfn[title] {
-	border-bottom: 1px dotted #000; 
+	border-bottom: 1px dotted #000;
 	cursor: help;
 }
 ins {background-color: #fcd700; color: #000; text-decoration: none;}
@@ -204,7 +204,7 @@ h6 {
 ---------------------------------------------------------------------------*/
 
 
-/* BODY 
+/* BODY
 ---------------------------------------------------------------------------*/
 body {
 	margin:0 auto;
@@ -221,7 +221,7 @@ body {
 /* HEADER
 ---------------------------------------------------------------------------*/
 #header{ min-height: 102px; }
-.headerWrapper { 
+.headerWrapper {
 	background: url('../images/banner.jpg') no-repeat top center;
 	background-size: cover;
 	padding: 40px 0 140px;
@@ -257,7 +257,7 @@ body {
 	text-align: center;
 	display: table;
 	width: 100%;
-	background-color: rgba(12,106,118,1);
+	background-color: rgba(0, 174, 239,.75);
 	padding: 22px 0;
 	z-index: 999;
 }
@@ -336,7 +336,7 @@ body {
 	padding: 0 0 40px;
 	font-family: 'HelveticaNeueLTStd45Light';
 }
-.sliderCaption .watchVideo, 
+.sliderCaption .watchVideo,
 .videoIconWrapper .watchVideo{
 	font-size: 22px;
 	color: #fff;
@@ -351,7 +351,7 @@ body {
 	display:inline-block !important;
 	width:auto !important;
 	padding-left: 3px;
-}	
+}
 .videoIconWrapper .watchVideo{ margin-top:65px; }
 .latestNews{
 	width: 43%;
@@ -376,8 +376,8 @@ body {
 .events .newsIcon,
 .events .eventsIcon{ padding-right: 20px; }
 .events .desc,
-.events .desc p{ 
-	width: 74%; 
+.events .desc p{
+	width: 74%;
 	font-size: 16px;
 	color: #000;
 	font-weight: 300;
@@ -393,7 +393,7 @@ body {
 	line-height: 1;
 	padding-bottom: 11px;
 	font-family: 'HelveticaNeueLTStd45Light';
-}	
+}
 .events h3 a{ color: #000; }
 .seeAll{
 	text-align: right;
@@ -446,7 +446,7 @@ body {
 	height:26px;
 	position: relative;
 	top: -6px;
-}	
+}
 .heading{
 	padding: 105px 0 75px;
 	text-align: center;
@@ -509,8 +509,8 @@ body {
 #messages .heading,
 #about .heading,
 #new .heading,
-#locationMessages .heading{ 
-	background:url('../images/ministries-banner.jpg') no-repeat top center; 
+#locationMessages .heading{
+	background:url('../images/ministries-banner.jpg') no-repeat top center;
 	background-size:cover;
 	min-height:320px;
 	padding:200px 0 0 0;
@@ -518,12 +518,12 @@ body {
 #ministries .heading h1, #pillars .heading h1, #messages .heading h1,
 #ministries .heading h2, #pillars .heading h2, #messages .heading h2,
 #about .heading h1, #about .heading h2, #new .heading h1, #new .heading h2,
-#locationMessages .heading h1, #locationMessages .heading h2{ color:#fff; text-shadow: 0px 1px 1px #000; }	
+#locationMessages .heading h1, #locationMessages .heading h2{ color:#fff; text-shadow: 0px 1px 1px #000; }
 #about .heading,
 #new .heading,
 #messages .heading{ padding:160px 0 50px 0; }
 .centers, .pilllars{ padding: 70px 0 70px 60px; }
-.centers li, .pilllars li{ padding: 60px 0; } 
+.centers li, .pilllars li{ padding: 60px 0; }
 .centers li .thumb,
 .pilllars li .thumb{
 	width: 211px;
@@ -533,7 +533,7 @@ body {
 	display: table;
 }
 .centers li .thumb span{ font-family: 'HelveticaNeueLTStd75Bold'; }
-.centers li .thumb span, 
+.centers li .thumb span,
 .pilllars li .thumb span{
 	display: table-cell;
 	vertical-align: middle;
@@ -626,7 +626,7 @@ body {
 	font-family: 'HelveticaNeueLTStd45Light';
 	font-weight: 300;
 	padding-top: 25px;
-}	
+}
 .selectWrapper select{ background-color:transparent; }
 .selectWrapper select,
 .aboutPillars  input[type="text"],
@@ -658,14 +658,14 @@ body {
    color: #2f2f2f;
 }
 .aboutPillars  input[type="text"]::-moz-placeholder,
-.stayUpdated  input[type="text"]::-moz-placeholder, 
+.stayUpdated  input[type="text"]::-moz-placeholder,
 .aboutPillars  textarea{
-   color: #2f2f2f;  
+   color: #2f2f2f;
 }
 .aboutPillars  input[type="text"]:-ms-input-placeholder,
 .stayUpdated  input[type="text"]:-ms-input-placeholder,
-.aboutPillars  textarea {  
-   color: #2f2f2f;  
+.aboutPillars  textarea {
+   color: #2f2f2f;
 }
 
 
@@ -675,8 +675,8 @@ body {
 #messages .heading,
 #about .heading,
 #new .heading,
-#locationMessages .heading{ 
-	background: url('../images/messages-banner.jpg') no-repeat top center; 
+#locationMessages .heading{
+	background: url('../images/messages-banner.jpg') no-repeat top center;
 	background-size:cover;
 }
 .recentMessagesWrapper{ padding: 75px 0 80px; }
@@ -687,7 +687,7 @@ body {
 	font-family: 'WisdomScriptAIRegular';
 	font-weight: 400;
 	line-height: 1.4;
-}	
+}
 .recentMessages{
 	display: table;
 	text-align: center;
@@ -723,7 +723,7 @@ body {
 .recentMessages .msgDesc h4 a{ color: #000; }
 .msgThumb a img{ display:inline-block; max-width: 100%; }
 .toolTipWrapper{ position:relative; }
-.toolSocialWrapper{ 
+.toolSocialWrapper{
 	position: absolute;
 	padding-top: 15px;
 	width: 190px;
@@ -732,8 +732,8 @@ body {
 	top: 18px;
 }
 .toolTipWrapper:hover > .toolSocialWrapper{ display:block; }
-.toolSocial{ 
-	background-color:#fff; 
+.toolSocial{
+	background-color:#fff;
 	border-bottom:1px solid #bfbfbf;
 	padding:14px 8px 12px 8px;
 }
@@ -741,9 +741,9 @@ body {
 	float:left;
 	margin: 0 8px;
 }
-.toolSocial li a{ display:block; }	
-.toolArrow{ 
-	position:absolute; 
+.toolSocial li a{ display:block; }
+.toolArrow{
+	position:absolute;
 	top:5px;
 	right:0;
 }
@@ -785,7 +785,7 @@ body {
 }
 .locationDropDown,
 .locationDropDown1,
-.locationDropDown2{ 
+.locationDropDown2{
 	border: 1px solid #fff;
 	background-color: #fff;
 	height: 283px;
@@ -801,7 +801,7 @@ body {
 }
 .locationDropDown li a,
 .locationDropDown1 li a,
-.locationDropDown2 li a{ 
+.locationDropDown2 li a{
 	display:block;
 	color:#2f2f2f;
 	padding:24px 25px;
@@ -846,7 +846,7 @@ body {
 	padding: 90px 70px 129px 70px;
 	box-sizing: border-box;
 }
-.locationHomeMap .map.left{ 
+.locationHomeMap .map.left{
 	border-radius: 125px !important;
 	overflow:hidden !important;
 	position:absolute;
@@ -866,7 +866,7 @@ body {
 .locationHomeMap .addressWrapper > div{ padding-bottom:30px; }
 .clientWraper{
 	background-color: #503752;
-	padding: 80px 0 110px;	
+	padding: 80px 0 110px;
 }
 .clientWraper .thumb{ padding-right: 5%; width: 24.3%; text-align: center; }
 .clientWraper .thumb img{
@@ -911,7 +911,7 @@ body {
 	line-height: 1;
 	padding-bottom: 20px;
 }
-.growthLocation h3{ 
+.growthLocation h3{
 	font-size: 22px;
 	line-height: 1;
 	color: #000;
@@ -1070,9 +1070,9 @@ body {
 	line-height: 1.2;
 	padding-bottom:15px;
 }
-.aboutVision  li{ 
-	padding:73px 86px; 
-	border-top:1px solid #000; 
+.aboutVision  li{
+	padding:73px 86px;
+	border-top:1px solid #000;
 	text-align:center;
 }
 .aboutVision  li:first-child{ border-top:0; }
@@ -1081,7 +1081,7 @@ body {
 	color: #fff;
 	text-align: center;
 	padding: 65px 0 45px;
-}	
+}
 .lifeValues.section{ width: 650px; }
 .lifeValues h2,
 .lifeBeliefs h2,
@@ -1157,8 +1157,8 @@ body {
 	font-family: 'HelveticaNeueLTStd45Light';
 	color: #000;
 }
-.beliefDesc .ratios{ 
-	padding: 12px 0 0; 
+.beliefDesc .ratios{
+	padding: 12px 0 0;
 	font-weight:600;
 }
 #about .clientWraper .thumbDesc p{ padding-bottom:15px; }
@@ -1194,7 +1194,7 @@ body {
 	text-align: center;
 	width: 100%;
 	min-height: 172px;
-}	
+}
 .lifePastors li .pastorsThumbnail span{
 	display: table-cell;
 	vertical-align: middle;
@@ -1240,7 +1240,7 @@ body {
 	border-bottom:1px solid #000;
 }
 .newDesc li{
-	padding:70px 0;	
+	padding:70px 0;
 }
 .newDesc li .findMore{
 	font-size: 22px;
@@ -1250,7 +1250,7 @@ body {
 	line-height: 1.2;
 	padding-top:15px;
 	text-transform:uppercase;
-	color:#000; 
+	color:#000;
 	display:block;
 }
 
@@ -1284,7 +1284,7 @@ body {
 }
 #tabs-content > div{ display:none; }
 #tabs-content > div.active{ display:block; }
-#tabs-wrapper{ 
+#tabs-wrapper{
 	text-align: center;
 	width: 390px;
 	margin: 0 auto;
@@ -1304,7 +1304,7 @@ body {
 #tabs-wrapper > a.current{ background:url('../images/select-arrow.png') no-repeat bottom center; }
 #locationMessages .recentMessagesWrapper{ padding-top:35px; }
 
-/* Event Detail 
+/* Event Detail
 ---------------------------------------------------------------------------*/
 #locationMessages.event .heading{
 	background: url('../images/event-banner.jpg') no-repeat top center;
@@ -1322,7 +1322,7 @@ body {
 	display: inline-block;
 	padding: 15px 10px;
 	background-color: rgba(0,0,0, 0.6);
-}		
+}
 .eventDetailWrapper .recentMessages > li{ margin: 20px 15px; }
 .eventContainer { padding:74px 0 20px; }
 .eventShare{
@@ -1367,7 +1367,7 @@ body {
 	padding: 55px 82px;
 	background-color: #fff;
 	text-align: center;
-}	
+}
 .giving h1{
 	font-size: 44px;
 	line-height: 1.1;
@@ -1419,7 +1419,7 @@ body {
 
 /* Search box
 ---------------------------------------------------------------------------*/
-.searchBox{ 
+.searchBox{
 	width: 480px;
 	display: none;
 	position: fixed;
@@ -1542,8 +1542,8 @@ body {
 	padding: 45px 0 50px;
 	margin-top:80px;
 }
-.locationHomeSecond.recentMessagesWrapper h2{ 
-	font-size: 40px; 
+.locationHomeSecond.recentMessagesWrapper h2{
+	font-size: 40px;
 	padding-bottom: 28px;
 	text-align:left;
 }
@@ -1574,28 +1574,28 @@ body {
 
 /* MEDIA QUERIES
 ---------------------------------------------------------------------------*/
-@media screen and (min-width: 1550px) { 
-	#locationMessages .locationName{ padding-top: 5px; }  
+@media screen and (min-width: 1550px) {
+	#locationMessages .locationName{ padding-top: 5px; }
 }
 
-@media screen and (max-width: 1130px) { 
+@media screen and (max-width: 1130px) {
 	.searchBox{ right: 0; left:auto; }
 /* Location ----------------------------------------------*/
 	.recentMessagesWrapper.section1108{ width:100%; }
 	.events.likeUs .newsIcon { width: auto; }
-	
+
 }
 
-@media screen and (max-width: 1125px) { 
-	
+@media screen and (max-width: 1125px) {
+
 
 /* Location ----------------------------------------------*/
-	
+
 	.recentMessages .msgDesc{ font-size: 18px; }
 	.recentMessages .msgDesc h4{ font-size: 18px; }
 	.events.likeUs .newsIcon { width: 70px; }
-	.events.likeUs .latestNews{ } 
-	
+	.events.likeUs .latestNews{ }
+
 	.section1108{
 		width:99%;
 		margin:0 auto;
@@ -1603,30 +1603,30 @@ body {
 	.headerMain .headerMainNav > li{ margin: 0 13px; }
 	#locationMessages .headerMain .headerMainNav li{ font-size: 16px; }
 	#locationMessages .locationName{ font-size: 37px; }
-	
+
 }
-@media screen and (min-width: 1024px) and (max-width: 1090px) { 
+@media screen and (min-width: 1024px) and (max-width: 1090px) {
 	#locationMessages .recentMessages > li {
 		width: 31%;
 		margin: 30px 1%;
 	}
-	
+
 }
-@media screen and (max-width: 1090px) { 
+@media screen and (max-width: 1090px) {
 	#locationMessages.event .recentMessages > li {
 		width: 31%;
 		margin: 10px 1%;
 	}
 }
-@media screen and (max-width: 1086px) { 
+@media screen and (max-width: 1086px) {
 /* Messages ----------------------------------------------*/
 	.recentMessages > li, .recentMessagesWrapper.messages .recentMessages > li {
 		width: 31%;
 		margin: 10px 1%;
 	}
-	
+
 }
-@media screen and (max-width: 1059px) { 
+@media screen and (max-width: 1059px) {
 
 /* Location ----------------------------------------------*/
 	#locationHome .recentMessages, .recentMessages > li {
@@ -1644,12 +1644,12 @@ body {
 	.headerMain{ padding: 25px 0 13px; }
 	.navLogo{ width: 22%; }
 	.headerMainNav { padding-top: 20px; }
-	.headerMain .headerMainNav li{ font-size: 16px; } 
+	.headerMain .headerMainNav li{ font-size: 16px; }
 	#locationMessages .navLogo,
-	#locationMessages .navLogo{ width: auto; }	
+	#locationMessages .navLogo{ width: auto; }
 	#locationMessages .locationName{ padding-top: 8px;  font-size: 28px; }
 	#locationMessages .headerMain .headerMainNav > li { margin: 0 13px;  font-size: 14px; }
-	
+
 	.locationHomeSecond.recentMessagesWrapper h2 { font-size: 33px; }
 /* Home ----------------------------------------------*/
 	.section{
@@ -1721,7 +1721,7 @@ body {
 	.lifeCommunityWrapper h2{
 		font-size: 50px;
 		padding: 90px 20px;
-	}	
+	}
 	.events{ width: 738px; margin: 0 auto; }
 	#locationHome .events{ width:100%; }
 	#locationHome .events .section{ width: 738px; }
@@ -1752,7 +1752,7 @@ body {
 	#locationHome .events .section { width: 98%; }
 	.recentMessages .msgDesc{ font-size: 15px; }
 	.recentMessages .msgDesc h4{ font-size: 15px; }
-	.growthLocation .growthList li{ margin: 45px 5%; }	
+	.growthLocation .growthList li{ margin: 45px 5%; }
 	.stayUpdated form, .updateDesc{ width:100%; }
 	.stayUpdated form input[type="text"]{
 		float: none;
@@ -1772,7 +1772,7 @@ body {
 @media screen and (max-width: 768px) {
 	.giving{ width:751px; }
 /* Home ----------------------------------------------*/
-	
+
 }
 @media screen and (max-width: 767px) {
 	.searchBox .searchField {
@@ -1786,12 +1786,12 @@ body {
 
 /* Light Box ----------------------------------------------*/
 	.giving {
-		width: 580px;		
+		width: 580px;
 		padding: 55px 35px;
 		margin:0 auto;
 	}
 	.giving h1 { font-size: 30px; }
-	
+
 /* Event Detail ----------------------------------------------*/
 	.eventShare{
 		display: table;
@@ -1804,9 +1804,9 @@ body {
 		display: inline-block;
 	}
 	.eventDetail{ text-align: center; }
-	
+
 /* Messages ----------------------------------------------*/
-	#messages .recentMessagesWrapper.messages .recentMessages{ width: 100%; }	
+	#messages .recentMessagesWrapper.messages .recentMessages{ width: 100%; }
 	.recentMessagesWrapper.messages .recentMessages > li{ width: 44%; }
 /* Location ----------------------------------------------*/
 	.placeHading h3 { font-size: 27px; }
@@ -1835,12 +1835,12 @@ body {
 		padding: 24px 16px;
 	}
 	.selectWrapper{ float: none; }
-	.aboutPillars input[type="text"], .aboutPillars textarea{ width: 405px; }  
-	
+	.aboutPillars input[type="text"], .aboutPillars textarea{ width: 405px; }
+
 /* About ----------------------------------------------*/
 	.lifeValues.section { width: 98%; }
-	
-	
+
+
 /* Location ----------------------------------------------*/
 	#locationHome .headerMainWrapper h1{ font-size: 68px; }
 	#locationHome .backTo{ margin-top: -4px; }
@@ -1867,7 +1867,7 @@ body {
 	.recentMessages > li{ width:100%; margin-bottom:20px;}
 
 /* Home ----------------------------------------------*/
-	
+
 	.sliderCaption .watchVideo, .videoIconWrapper .watchVideo{ font-size: 18px; }
 	.sliderCaption .watchVideo img, .videoIconWrapper .watchVideo img{
 		position:relative;
@@ -1897,7 +1897,7 @@ body {
 	.storyWrapper li{
 		width: 100%;
 		margin: 20px 0;
-	}	
+	}
 	.storyWrapper h2 { font-size: 20px; }
 	.lifeCommunityWrapper h2 {
 		font-size: 30px;
@@ -1913,7 +1913,7 @@ body {
 /* Footer ----------------------------------------------*/
 	.footerSocial { padding: 46px 0 40px; }
 	.officeAddress{
-		width: 100%;	
+		width: 100%;
 	}
 	.officeAddress li{ width:100%; margin-bottom: 15px; padding-left:0; text-align: center;}
 	.officeAddress li:first-child {
@@ -1945,13 +1945,13 @@ body {
 		padding-top: 26px;
 		padding-bottom: 10px;
 	}
-	
+
 /* Light Box ----------------------------------------------*/
 	.giving {
 		width: 390px;
 		padding: 45px 30px;
 	}
-	.giving h1 { 
+	.giving h1 {
 		font-size: 22px;
 		padding-bottom: 22px;
 	}
@@ -1965,7 +1965,7 @@ body {
 		float: none;
 	}
 	#locationMessages .headerMain .section1108 > div { float: none; }
-	#locationMessages .headerMain .locationLogoWrapper{ 
+	#locationMessages .headerMain .locationLogoWrapper{
 		display: block !important;
 		width: 368px;
 		margin: 0 auto;
@@ -2033,7 +2033,7 @@ body {
 
 
 /* Location Messages --------------------------------------*/
-	#locationMessages .headerMain .locationLogoWrapper{ 
+	#locationMessages .headerMain .locationLogoWrapper{
 		display: block !important;
 		width: 368px;
 		margin: 0 auto;
@@ -2042,15 +2042,15 @@ body {
 		float:left;
 	}
 	#locationMessages .headerMain .navLogo { float:left;}
-	#locationMessages .headerMain{ 
+	#locationMessages .headerMain{
 		padding-top: 26px;
 		padding-bottom: 10px;
 	}
-	
+
 /* Messages ----------------------------------------------*/
 	#messages .recentMessagesWrapper.messages .recentMessages,
-	#locationHome .recentMessages, .recentMessages{width: 325px;}	
-	.recentMessagesWrapper.messages .recentMessages > li{ width: 100%; }	
+	#locationHome .recentMessages, .recentMessages{width: 325px;}
+	.recentMessagesWrapper.messages .recentMessages > li{ width: 100%; }
 	#messages .selectLocationWrapper { width: 289px; }
 	#messages  .locationSelectbox{ background: url('../images/down-arrow.png') no-repeat 249px 30px; }
 	.locationSelectbox1, .locationSelectbox2{ background: #fff url('../images/select-arrow.png') no-repeat 252px 21px; }
@@ -2064,7 +2064,7 @@ body {
 	.places .column2 { width: 100%; }
 	.places .column2 li:first-child{ border-top: 1px solid #a5a5a7; }
 	.places li.last { border-bottom: 0; }
-	
+
 /* Pillars ----------------------------------------------*/
 
 	.aboutPillars h2 { font-size: 28px; }
@@ -2082,7 +2082,7 @@ body {
 	}
 	.aboutPillars form{ width: 290px; }
 	.selectWrapper{ float: none; width: 290px; }
-	.aboutPillars input[type="text"], .aboutPillars textarea{ width: 275px; }  
+	.aboutPillars input[type="text"], .aboutPillars textarea{ width: 275px; }
 	.locationDropDown, .locationDropDown1, .locationDropDown2{ width: 287px; font-size: 18px; }
 	.aboutPillars textarea{ padding-right: 0; }
 	.selectWrapper select, .aboutPillars input[type="text"], .aboutPillars textarea, .aboutPillars .submit input[type="submit"]{
@@ -2092,9 +2092,9 @@ body {
 	.aboutPillars textarea{ height:100px; }
 	.pilllars .pilllarsDesc .downloadVideo{ display: block; margin-left:0;	 }
 	#ministries .heading h1, #pillars .heading h1, #messages .heading h1, #ministries .heading h2, #pillars .heading h2, #messages .heading h2, #about .heading h1, #about .heading h2, #new .heading h1, #new .heading h2, #locationMessages .heading h1, #locationMessages .heading h2{ line-height: 1.3; }
-	
 
-	
+
+
 	#header { min-height: 154px; }
 	.navLogo {
 		width: 100%;
@@ -2114,8 +2114,8 @@ body {
 		padding: 160px 0 0 0;
 	}
 	#messages .heading{ min-height: 320px; padding-bottom: 20px !important; }
-	
-	
+
+
 
 /* About ----------------------------------------------*/
 	.heading h1{ font-size: 40px; }
@@ -2126,7 +2126,7 @@ body {
 		padding: 0 9px;
 		font-size: 16px;
 		margin-bottom: 15px;
-	}	
+	}
 	.aboutDesc { padding: 35px 0 30px; }
 	.aboutDesc li h2, .aboutVision li h2, .newDesc li h2{ font-size: 34px; }
 	.aboutDesc li p, .aboutVision li p, .newDesc li p { font-size: 18px; }
@@ -2175,7 +2175,7 @@ body {
 		width: 310px;
 		padding: 30px 30px;
 	}
-	.giving h1 { 
+	.giving h1 {
 		font-size: 18px;
 		padding-bottom: 20px;
 	}
@@ -2183,7 +2183,7 @@ body {
 	.continuePortal a img{ width: 7px; }
 
 /* Location Messages --------------------------------------*/
-	#locationMessages .headerMain .locationLogoWrapper{ 
+	#locationMessages .headerMain .locationLogoWrapper{
 		display: block !important;
 		width: 298px;
 		margin: 0 auto;
@@ -2193,7 +2193,7 @@ body {
 		float:left;
 		font-size: 22px;
 	}
-	#locationMessages .headerMain .navLogo { 
+	#locationMessages .headerMain .navLogo {
 		float:left;
 		width: 126px;
 		padding: 6px 9px 2px 0;
@@ -2226,9 +2226,8 @@ body {
 	.events h2 { font-size: 41px; }
 	.events h3 { font-size: 16px; }
 	.events .seeAll a { font-size: 15px; }
-	
+
 /* Footer ----------------------------------------------*/
 	.footerWrapper .section{ width:100%; }
 	.officeAddress, .officeAddress h4, .officeAddress a, .officeAddress address{ font-size: 14px; }
 }
-
